@@ -170,6 +170,9 @@ return {
         -- capabilities = {},
         settings = {
           Lua = {
+            runtime = {
+              version = 'LuaJIT'
+            },
             format = {
               enable = false,
             },
